@@ -1,0 +1,49 @@
+form {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    height: min-content;
+}
+#form-hint {
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+.text-input {
+    float: right;
+}
+.hidden {
+    display: none;
+}
+.error {
+    color: darkred;
+}
+.form-wrapper {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+#form-output p {
+    font-weight: bold;
+}
+#form-output span {
+    font-weight: normal;
+}
+.table-wrapper {
+    width: 500px;
+    height: 500px;
+}
+table {
+    width: 100%;
+    height: 100%;
+}
+tr, td {
+    width: auto;
+    height: auto;
+}
+td {
+    border: 1px solid #000;
+}
+#colorPicker {
+    width: 100%;
+}
